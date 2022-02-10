@@ -1,19 +1,3 @@
-# CMPT 145: Abstract Data Types
-# Defines the Statistics ADT
-# Calculate mean and variance.
-
-# Implementation
-# Do the calculations without storing all the data!
-# Uses a dictionary as a record to store three quantities:
-#   'count':     the number of data values added
-#   'avg':       the running average of the values added
-#   'sumsqdiff': the sum of the square differences between the 
-#                values added and the mean so far
-# These values can be modified every time a new data value is 
-# added, so that the mean and variance can be calculated quickly  
-# as needed.  This approach means that we do not need to store  
-# the data values themselves, which could save a lot of space.
-
 class Statistics(object):
 
     def __init__(self):

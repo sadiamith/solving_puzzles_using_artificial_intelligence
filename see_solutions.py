@@ -1,14 +1,3 @@
-# CMPT 317: Script for colored tile problem
-
-# Copyright (c) 2022 Jeff Long
-# Department of Computer Science, University of Saskatchewan
-
-# This script solves a series of Colored Tile problems using
-# IDS and displays the sequence of actions needed to
-# solve each problem
-#
-
-
 import UninformedSearch as BlindSearch
 import coloredTiles as P
 
